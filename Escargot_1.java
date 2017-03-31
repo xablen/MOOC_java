@@ -1,0 +1,12 @@
+public class Escargot_1{
+  public static void main(String[] args){
+    int nombre; 
+    int avance = 0;
+    MOOC.useMOOCTerminal();
+    while(avance < 50){
+      nombre = MOOC.auSort(1,6);
+      avance = avance + nombre;     
+      System.out.println("position: " +  avance);
+    }
+  }
+}
